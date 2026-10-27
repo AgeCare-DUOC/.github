@@ -66,17 +66,6 @@ Desarrollado en el marco del **Proyecto Capstone** de la carrera de Ingeniero In
 
 ---
 
-## 👥 Equipo de Desarrollo
-
-| Integrante | Rol | Especialización |
-| :--- | :--- | :--- |
-| **César Gacitúa** | Agent Orchestration & Scrum Master | Agentic Engineering, Harness Engineering, Validation Loops, reasoning chains, Guardrails, y HITL |
-| **Agent 1** | Backend Developer | FastAPI, PostgreSQL, Azure, Pydantic v2, asyncpg |
-| **Agent 2** | Frontend Developer | Flutter, Dart, Riverpod, Material 3, go_router, Clean Architecture |
-| **Agent 3** | QA & DevOps | Bicep IaC, CI/CD, Testing, Azure Container Apps, PostgreSQL Flexible Server |
-
----
-
 ## 🚀 Cómo Empezar
 
 ### 1. Clonar los repositorios
