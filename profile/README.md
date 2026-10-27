@@ -32,9 +32,9 @@ Desarrollado en el marco del **Proyecto Capstone** de la carrera de Ingeniero In
 
 | Repositorio | Descripción | Stack Principal |
 | :--- | :--- | :--- |
-| [`AgeCare-Core-API`](https://github.com/AgeCare-DUOC/AgeCare-Core-API) | Backend oficial: API REST y WebSockets para el cuidado de adultos mayores | FastAPI, Python 3.12, PostgreSQL, Azure |
-| [`CapstoneAgecare`](https://github.com/AgeCare-DUOC/CapstoneAgecare) | Frontend móvil multiplataforma | Flutter, Dart, Riverpod, Material 3 |
-| [`CapstoneAgecare-Docs`](https://github.com/AgeCare-DUOC/CapstoneAgecare-Docs) | Documentación técnica formal y evidencias académicas | Markdown, Confluence, Jira |
+| [`Backend-API`](https://github.com/AgeCare-DUOC/Backend-API) | Backend oficial: API REST y WebSockets para el cuidado de adultos mayores | FastAPI, Python 3.12, PostgreSQL, Azure |
+| [`Frontend-App`](https://github.com/AgeCare-DUOC/Frontend-App) | Frontend móvil multiplataforma | Flutter, Dart, Riverpod, Material 3 |
+| [`Docs`](https://github.com/AgeCare-DUOC/Docs) | Documentación técnica formal y evidencias académicas | Markdown, Confluence, Jira |
 
 > 💡 Cada repositorio contiene su propio `README.md` con instrucciones detalladas de instalación, arquitectura y pruebas.
 
@@ -42,7 +42,7 @@ Desarrollado en el marco del **Proyecto Capstone** de la carrera de Ingeniero In
 
 ## 🛠️ Stack Tecnológico
 
-### Backend (AgeCare Core API)
+### Backend (Backend-API)
 - **Framework:** FastAPI (Python 3.12+)
 - **Validación:** Pydantic v2
 - **Base de Datos:** PostgreSQL (Azure Database for PostgreSQL Flexible Server) vía SQLAlchemy 2.0 Async (`asyncpg`)
@@ -51,7 +51,7 @@ Desarrollado en el marco del **Proyecto Capstone** de la carrera de Ingeniero In
 - **Integraciones:** Alloxentric Speech-to-Text & NLP, Azure Blob Storage, WebSockets (chat en tiempo real)
 - **Infraestructura:** Microsoft Azure (Container Apps, Blob Storage, Bicep IaC)
 
-### Frontend (CapstoneAgecare)
+### Frontend (Frontend-App)
 - **Framework:** Flutter / Dart (Clean Architecture por feature)
 - **Gestión de estado:** Riverpod
 - **Navegación:** `go_router`
@@ -82,18 +82,18 @@ Desarrollado en el marco del **Proyecto Capstone** de la carrera de Ingeniero In
 ### 1. Clonar los repositorios
 ```bash
 # Backend
-git clone https://github.com/AgeCare-DUOC/AgeCare-Core-API.git
+git clone https://github.com/AgeCare-DUOC/Backend-API.git
 
 # Frontend
-git clone https://github.com/AgeCare-DUOC/CapstoneAgecare.git
+git clone https://github.com/AgeCare-DUOC/Frontend-App.git
 
 # Documentación
-git clone https://github.com/AgeCare-DUOC/CapstoneAgecare-Docs.git
+git clone https://github.com/AgeCare-DUOC/Docs.git
 ```
 
 ### 2. Backend (FastAPI)
 ```bash
-cd AgeCare-Core-API
+cd Backend-API
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -103,7 +103,7 @@ PYTHONPATH=. pytest
 
 ### 3. Frontend (Flutter)
 ```bash
-cd CapstoneAgecare
+cd Frontend-App
 flutter pub get
 flutter run --dart-define=USE_MOCKS=true
 ```
