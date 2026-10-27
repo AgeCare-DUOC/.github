@@ -114,7 +114,7 @@ flutter run --dart-define=USE_MOCKS=true
 
 ## 📚 Documentación y Evidencias Académicas
 
-Toda la documentación formal del proyecto se encuentra en [`CapstoneAgecare-Docs`](https://github.com/AgeCare-DUOC/CapstoneAgecare-Docs), organizada por fases del ciclo de titulación DUOC UC:
+Toda la documentación formal de las evidencias del proyecto se encuentra en el repositorio [`Docs`](https://github.com/AgeCare-DUOC/Docs), organizada por fases del ciclo de titulación DUOC UC:
 
 - **Fase 1:** Definición de requerimientos y arquitectura (RA1)
 - **Fase 2:** Avance de implementación e informe técnico (RA2)
